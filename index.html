@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Amatic+SC:wght@400;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <nav class="navbar is-fixed" role="navigation" aria-label="main navigation">
+      <div id="navbarBasicExample" class="navbar-menu">
+        <a class="navbar-item"> HOME </a>
+
+        <a href="#sectionBio" class="navbar-item"
+          ><h4 class="aPropos">À PROPOS DE NOUS</h4>
+        </a>
+
+        <a href="#heroPaniers" class="navbar-item"> LES PANIERS </a>
+
+        <a href="#sectionEvent" class="navbar-item"> LES ÉVÈNEMENTS </a>
+
+        <a class="navbar-item"> CONTACTEZ-NOUS </a>
+      </div>
+    </nav> -->
+
+    <section class="section" id="sectionAccueil">
+      <h1 class="title" id="titleSite">
+        Le potager <br />
+        d'Alwin et Basile
+      </h1>
+      <h2 class="subtitle" id="subtitleSite">Permaculture pres de chez vous</h2>
+    </section>
+
+    <section id="sectionContenuSite">
+      <!-- SECTION CARD PANIER -->
+      <section class="section" id="sectionCards">
+        <div class="columns" id="columnsCard">
+          <div class="column is-4 cardPanier">
+            <div class="container">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="img/imgAccueil2.jpg" alt="Placeholder image" />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4 titlePanier">Panier n°1</p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Voluptas, eligendi!
+                  </div>
+
+                  <button class="button" id="buttonReserver">Réserver</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-4 cardPanier">
+            <div class="container">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="img/imgAccueil2.jpg" alt="Placeholder image" />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4 titlePanier">Panier n°2</p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Voluptas, eligendi!
+                  </div>
+
+                  <button class="button" id="buttonReserver">Réserver</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-4 cardPanier">
+            <div class="container">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="img/imgAccueil2.jpg" alt="Placeholder image" />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4 titlePanier" id="titlePanierTest">
+                        Panier n°3
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Voluptas, eligendi!
+                  </div>
+
+                  <button class="button" id="buttonReserver">Réserver</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION A PROPOS -->
+      <section class="section" id="sectionApropos">
+        <div class="container">
+          <div class="columns is-multiline is-gapless" id="columnsApropos">
+            <div class="column is-6">
+              <h3 class="subtitle" id="titleApropos">Qui sommes-nous</h3>
+              <p class="textApropos">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolores facilis corrupti at. Sapiente quia sit architecto
+                voluptate quos asperiores doloremque blanditiis, facere
+                excepturi officia consequuntur, error deleniti nemo enim totam,
+                velit libero explicabo quae? Cumque voluptate commodi
+                reiciendis, ut inventore officiis sit rerum modi illum,
+                consequatur dolorum, explicabo numquam. Animi. Lorem ipsum dolor
+                sit, amet consectetur adipisicing elit. Eaque, soluta! Ut,
+                fugiat? Ipsa enim dicta consequatur similique eveniet expedita
+                incidunt.
+              </p>
+            </div>
+            <div class="column is-6" id="columnAlwin">
+              <div class="container" id="divAlwin">
+                <img id="imgAlwin" src="img/alwin.jpg" alt="" />
+              </div>
+            </div>
+            <div class="column is-6" id="columnBasile">
+              <img id="imgBasile" src="img/basile.png" alt="" />
+            </div>
+            <div class="column is-6">
+              <p class="textApropos" id="aProposGreen">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolores facilis corrupti at. Sapiente quia sit architecto
+                voluptate quos asperiores doloremque blanditiis, facere
+                excepturi officia consequuntur, error deleniti nemo enim totam,
+                velit libero explicabo quae? Cumque voluptate commodi
+                reiciendis, ut inventore officiis sit rerum modi illum,
+                consequatur dolorum, explicabo numquam. Animi. Lorem ipsum
+                dolor, sit amet consectetur adipisicing elit. Illum, placeat
+                aliquid suscipit iste unde possimus totam numquam. Fuga ipsum
+                obcaecati, nulla molestiae voluptas esse aspernatur. Possimus
+                atque a rem cumque? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Illo reiciendis facilis rem voluptatum iure
+                facere perspiciatis maxime officiis ratione quam?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION CONTACT -->
+      <section class="section" id="sectionContact">
+        <div class="container">
+          <h2 class="subtitle" id="titleContact">Contactez-nous</h2>
+          <div class="columns is-centered" id="columnsContact">
+            <div class="column is-5" id="columnAdress">
+              <p>
+                Adresse : 15 rue du château Paris, <br />
+                France 75001 <br />
+
+                Tél : 01 23 45 67 89 <br />
+                E-mail : info@monsite.fr
+              </p>
+            </div>
+            <div class="column is-5" id="columnHoraires">
+              <p>
+                HORAIRES <br />
+
+                Lun - Ven : 7 h - 22h <br />
+                ​​Samedi : 8h - 22h <br />
+                ​Dimanche : 8h - 23h
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- <section class="section" id="sectionBio">
+      <div class="container" id="divTitleBio">
+        <h1 class="title" id="titleBio">À propos de nous</h1>
+      </div>
+      <div class="container" id="bio">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique
+          architecto dicta praesentium, mollitia molestiae rem, illo alias
+          libero, non quasi tenetur a distinctio sunt aliquam cupiditate placeat
+          sequi nesciunt facilis? Ullam perferendis praesentium earum natus
+          accusantium ratione vitae vel blanditiis sequi aliquam, reprehenderit
+          nisi consequuntur harum quas nihil facilis tempora eaque? Quam quod
+          quaerat voluptatibus distinctio doloribus beatae omnis temporibus,
+          molestiae modi quae molestias iste, suscipit placeat, repellendus
+          sapiente illo possimus ullam at unde officia dolor itaque! Libero
+          ipsa, vitae ratione nobis expedita dolorem unde architecto nesciunt
+          sed impedit laudantium commodi illo quisquam quos fugiat aspernatur
+          nulla rerum? Voluptate, veritatis?Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Quis iusto voluptas sunt illo! Eveniet
+          doloremque recusandae impedit, nemo totam numquam praesentium. Eos
+          ipsa fuga impedit eligendi aspernatur inventore recusandae tenetur
+          dolorum ratione quibusdam ea nulla quas molestias eius dolor optio
+          doloribus pariatur, odio autem facere deserunt soluta? Nesciunt,
+          aliquam, odit id iure deleniti quibusdam eius vel repellat sequi
+          minima, adipisci necessitatibus nulla nihil unde dolore! Deleniti
+          expedita facere harum cum labore rem. Doloribus voluptate eius
+          accusamus eveniet non, officiis reprehenderit, ducimus asperiores odio
+          iusto, quaerat cupiditate beatae quibusdam nostrum nesciunt enim!
+          Culpa nostrum nisi tempora beatae doloribus dolorum sunt. Corrupti!
+        </p>
+      </div>
+    </section>
+
+    <section class="hero" id="heroPhotos">
+      <div class="container"></div>
+    </section>
+
+    <section class="hero" id="heroPaniers">
+      <h1 class="title" id="titlePaniers">Les paniers</h1>
+      <div class="container" id="divTable">
+        <table class="table is-fullwidth">
+          <tbody>
+            <tr>
+              <td class="imgPanier1"><img src="img/panier.jpg" alt="" /></td>
+              <td class="subtitle descriptionPanier">
+                <h4 class="titlePanier">Panier 1</h4>
+                <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus error ut fuga vero. Nostrum quasi quia debitis.
+                Ratione, cumque ex.
+              </td>
+            </tr>
+            <tr>
+              <td class="imgPanier1"><img src="img/panier.jpg" alt="" /></td>
+              <td class="subtitle descriptionPanier">
+                <h4 class="titlePanier">Panier 2</h4>
+                <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus error ut fuga vero. Nostrum quasi quia debitis.
+                Ratione, cumque ex.
+              </td>
+            </tr>
+            <tr>
+              <td class="imgPanier1"><img src="img/panier.jpg" alt="" /></td>
+              <td class="subtitle descriptionPanier">
+                <h4 class="titlePanier">Panier 3</h4>
+                <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus error ut fuga vero. Nostrum quasi quia debitis.
+                Ratione, cumque ex.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section" id="sectionEvent">
+      <h1 class="title" id="titleSectionEvents">Les évènements</h1>
+      <div class="container" id="divTableEvents">
+        <table class="table is-fullwidth" id="tableEvents">
+          <tbody>
+            <tr>
+              <td>
+                <img src="img/facebook.png" alt="" id="logoFb" />
+              </td>
+              <td>
+                <h4 class="subtitle titleEvent">évènement 1</h4>
+                <h4 class="dateEvent">24 décembre 2020</h4>
+                <p class="paraEvent">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Obcaecati expedita eaque autem? Necessitatibus, facere
+                  placeat!
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdImgLogo">
+                <img src="img/facebook.png" alt="" id="logoFb" />
+              </td>
+              <td>
+                <h4 class="subtitle titleEvent">évènement 1</h4>
+                <h4 class="dateEvent">24 décembre 2020</h4>
+                <p class="paraEvent">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Obcaecati expedita eaque autem? Necessitatibus, facere
+                  placeat!
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdImgLogo">
+                <img src="img/facebook.png" alt="" id="logoFb" />
+              </td>
+              <td>
+                <h4 class="subtitle titleEvent">évènement 1</h4>
+                <h4 class="dateEvent">24 décembre 2020</h4>
+                <p class="paraEvent">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Obcaecati expedita eaque autem? Necessitatibus, facere
+                  placeat!
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdImgLogo">
+                <img src="img/facebook.png" alt="" id="logoFb" />
+              </td>
+              <td>
+                <h4 class="subtitle titleEvent">évènement 1</h4>
+                <h4 class="dateEvent">24 décembre 2020</h4>
+                <p class="paraEvent">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Obcaecati expedita eaque autem? Necessitatibus, facere
+                  placeat!
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="hero" id="heroContact">
+      <div class="columns" id="columnsContact">
+        <div class="column" id="adress">
+          <p>1 rue du Château 75001 Paris, France</p>
+          <br />
+          <p>info@monsite.com</p>
+          <p>​Tél : 01 23 45 67 89</p>
+        </div>
+        <div class="column">
+          <div id="divLogoContact">
+            <img src="img/facebook.png" alt="" id="contactLogoFb" />
+            <img src="img/insta.png" alt="" id="contactLogoInsta" />
+          </div>
+        </div>
+        <div class="column" id="horaires">
+          <p>HEURES D'OUVERTURE</p>
+          <p>
+            Lundi - Vendredi : 7h00 - 22h00 <br />
+            Samedi : 8h00 - 22h00 <br />
+            Dimanche : 8h00 - 23h00
+          </p>
+        </div>
+      </div>
+    </section> -->
+  </body>
+</html>
