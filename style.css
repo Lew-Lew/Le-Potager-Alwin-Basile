@@ -1,19 +1,23 @@
 @font-face {
   font-family: "Richie";
-  src: url("/font/Richie\ Brusher.ttf") format("truetype");
+  src: url("/Le-Potager-Alwin-Basile/font/Richie\ Brusher.ttf")
+    format("truetype");
 }
 
 @font-face {
   font-family: "Hey_October";
-  src: url("/font/hey_october/Hey\ October.otf") format("woff2"),
-    url("/font/hey_october/Hey\ October.ttf") format("truetype");
+  src: url("/Le-Potager-Alwin-Basile/font/hey_october/Hey\ October.otf")
+      format("woff2"),
+    url("/Le-Potager-Alwin-Basile/font/hey_october/Hey\ October.ttf")
+      format("truetype");
 }
 
 @font-face {
   font-family: "john_Doe";
-  src: url("/font/cf_john_doe/CF\ John\ Doe\ font\ -\ Read\ Me.rtf")
+  src: url("/Le-Potager-Alwin-Basile/font/cf_john_doe/CF\ John\ Doe\ font\ -\ Read\ Me.rtf")
       format("woff2"),
-    url("/font/cf_john_doe/CFJohnDoePERSONALUSE-Regula.ttf") format("truetype");
+    url("/Le-Potager-Alwin-Basile/font/cf_john_doe/CFJohnDoePERSONALUSE-Regula.ttf")
+      format("truetype");
 }
 
 .navbar-item {
@@ -54,7 +58,7 @@
 
 #titleSite {
   margin-top: 1.3em;
-  font-family: "Richie", "Amatic SC";
+  font-family: "Hey_October";
   color: whitesmoke;
   text-align: center;
   font-size: 6em;
@@ -69,11 +73,6 @@
 }
 
 #sectionContenuSite {
-  /* background-image: url(img/background_greasy_plant.jpeg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
   background-color: whitesmoke;
   opacity: 0.9;
 }
@@ -164,6 +163,7 @@
 
 #imgBasile {
   width: 100%;
+  height: 100%;
 }
 
 /* SECTION CONTACT */
@@ -217,146 +217,3 @@
   margin-right: 1em;
   margin-left: 1em;
 }
-
-/* #sectionBio {
-  color: black;
-  font-family: "Amatic SC", cursive;
-  text-align: center;
-  background-color: rgb(19, 49, 50);
-}
-
-#titleBio {
-  margin-top: 1em;
-  margin-bottom: 1.5em;
-}
-
-#bio {
-  color: black;
-  font-family: "Amatic SC", cursive;
-  font-size: 1.5em;
-  text-align: justify;
-  width: 65em;
-}
-
-/* photo Alwin et Basile */
-
-/* #heroPhotos {
-  height: 25em;
-  background-image: url("img/imgAcceuil3.png");
-  background-attachment: fixed;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-/* les paniers */
-
-/* #heroPaniers {
-  height: 50em;
-}
-
-#titlePaniers {
-  padding-top: 2em;
-  padding-bottom: 1em;
-  font-family: "Amatic SC", cursive;
-  text-align: center;
-}
-
-#divTable {
-  width: 75%;
-}
-
-.descriptionPanier {
-  font-family: "Amatic SC", cursive;
-  font-size: 1.5em;
-}
-
-.imgPanier1 {
-  width: 28%;
-}
-
-/* evenements */
-
-/* #sectionEvent {
-  height: 65em;
-  background-color: #e7f5f2;
-}
-
-#titleSectionEvents {
-  font-family: "Amatic SC", cursive;
-  text-align: center;
-  margin-bottom: 3em;
-}
-
-#divTableEvents {
-  width: 75%;
-}
-
-#tableEvents {
-  background-color: white;
-}
-
-#logoFb {
-  width: 2em;
-  margin-left: 4em;
-  margin-top: 2em;
-}
-
-.titleEvent {
-  font-family: "Amatic SC", cursive;
-  font-size: 2em;
-  font-weight: bold;
-  margin-top: 0.8em;
-}
-
-.dateEvent {
-  margin-top: 0em;
-  font-family: "Amatic SC", cursive;
-  font-size: 1.5em;
-}
-
-.paraEvent {
-  font-family: "Amatic SC", cursive;
-  font-size: 1.3em;
-  margin-bottom: 1.5em;
-} */
-
-/* contact */
-
-/* #heroContact {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  height: 30em;
-}
-
-#columnsContact {
-  border: black solid 1px;
-  height: 20em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 100%;
-}
-
-#divLogoContact {
-  border: red 1px solid;
-}
-
-#contactLogoFb {
-  width: 2em;
-}
-
-#contactLogoInsta {
-  margin-top: 1em;
-  width: 1.8em;
-}
-
-#adress {
-  text-align: end;
-  border: 1px solid red;
-}
-
-#horaires {
-  text-align: start;
-} */
